@@ -40,6 +40,7 @@ Het doel is niet om méér administratie te maken, maar om minder mentale belast
 | Bestand / issue | Doel |
 |---|---|
 | [`ROADMAP.md`](./ROADMAP.md) | Hoofdfases en visuele route |
+| [`docs/BOUWDELEN.md`](./docs/BOUWDELEN.md) | Voorlopige bouwdelen- en verdiepingenstructuur |
 | [`docs/ILS_AB_MATRIX.md`](./docs/ILS_AB_MATRIX.md) | AB-gerichte ILS-propertymatrix voor Revit MEP |
 | [`docs/WORKFLOW_PRINCIPLES.md`](./docs/WORKFLOW_PRINCIPLES.md) | Werkprincipes en vaste workflow |
 | [GitHub issue #4](https://github.com/taffies-nomad-76/revit-mep/issues/4) | Centrale interactieve master-checklist |
@@ -49,15 +50,16 @@ Het doel is niet om méér administratie te maken, maar om minder mentale belast
 De basisvolgorde voor Revit MEP-werk:
 
 1. Scope bepalen
-2. ILS AB-matrix controleren
-3. Modelleren volgens opdracht
-4. Controleren
-5. Syncen
-6. Annoteren
-7. Revisies verwerken
-8. Plotten via DiRoots
-9. PDF controleren
-10. Output vrijgeven
+2. Bouwdelen en verdiepingen afbakenen
+3. ILS AB-matrix controleren
+4. Modelleren volgens opdracht
+5. Controleren
+6. Syncen
+7. Annoteren
+8. Revisies verwerken
+9. Plotten via DiRoots
+10. PDF controleren
+11. Output vrijgeven
 
 ## ILS-focus
 
@@ -69,6 +71,18 @@ De ILS-uitwerking in deze repository is **AB-gericht**. De huidige matrix bevat:
 - 57 — Luchtbehandeling
 
 De matrix bevat per categorie de eigenschap, Revit-drager, soort/type, AB-status en praktische opmerkingen.
+
+## Bouwdelenfocus
+
+De bouwdelenstructuur is voorlopig en wordt later aangevuld. De huidige structuur bevat:
+
+- A: Aa, Ab, Ac, Ad
+- B: Ba, Bb, Bc, Bd
+- C: Ca, Cb, Cc, Cd
+- D: Da, Db
+- Kelder
+
+Verdiepingen verschillen per bouwdeel. Onbekende verdiepingsaantallen blijven open punt.
 
 ## Ontwerpprincipes voor deze repo
 
@@ -88,6 +102,7 @@ Bij uitbreiding van deze repository gelden de volgende principes:
 
 Eerste focus:
 
+- bouwdelenstructuur
 - Revit Basis ILS
 - AB-gerichte propertycontrole
 - Revisie AB
