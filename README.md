@@ -35,29 +35,40 @@ Dat betekent:
 
 Het doel is niet om méér administratie te maken, maar om minder mentale belasting te hebben tijdens Revit MEP-werk.
 
+## Huidige inhoud
+
+| Bestand / issue | Doel |
+|---|---|
+| [`ROADMAP.md`](./ROADMAP.md) | Hoofdfases en visuele route |
+| [`docs/ILS_AB_MATRIX.md`](./docs/ILS_AB_MATRIX.md) | AB-gerichte ILS-propertymatrix voor Revit MEP |
+| [`docs/WORKFLOW_PRINCIPLES.md`](./docs/WORKFLOW_PRINCIPLES.md) | Werkprincipes en vaste workflow |
+| [GitHub issue #4](https://github.com/taffies-nomad-76/revit-mep/issues/4) | Centrale interactieve master-checklist |
+
 ## Werkmethode
 
 De basisvolgorde voor Revit MEP-werk:
 
 1. Scope bepalen
-2. Modelleren volgens opdracht
-3. Controleren
-4. Syncen
-5. Annoteren
-6. Revisies verwerken
-7. Plotten via DiRoots
-8. PDF controleren
-9. Output vrijgeven
+2. ILS AB-matrix controleren
+3. Modelleren volgens opdracht
+4. Controleren
+5. Syncen
+6. Annoteren
+7. Revisies verwerken
+8. Plotten via DiRoots
+9. PDF controleren
+10. Output vrijgeven
 
-## Centrale planning
+## ILS-focus
 
-De centrale interactieve checklist staat in GitHub Issues:
+De ILS-uitwerking in deze repository is **AB-gericht**. De huidige matrix bevat:
 
-- [Master checklist — Revit MEP Basis ILS + Revisie AB](https://github.com/taffies-nomad-76/revit-mep/issues/4)
+- 51 — Warmte-opwekking
+- 55 — Koude-opwekking
+- 56 — Warmtedistributie
+- 57 — Luchtbehandeling
 
-De roadmap staat ook in:
-
-- [`ROADMAP.md`](./ROADMAP.md)
+De matrix bevat per categorie de eigenschap, Revit-drager, soort/type, AB-status en praktische opmerkingen.
 
 ## Ontwerpprincipes voor deze repo
 
@@ -78,6 +89,7 @@ Bij uitbreiding van deze repository gelden de volgende principes:
 Eerste focus:
 
 - Revit Basis ILS
+- AB-gerichte propertycontrole
 - Revisie AB
 - workflowstructuur
 - planning en overzicht
