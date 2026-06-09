@@ -17,9 +17,9 @@ Een praktische hulptool bouwen voor Revit MEP-werk waarbij overzicht centraal st
 - minder contextverlies
 - beter zicht op wat open, bezig of klaar is
 
-## ADHD-vriendelijk uitgangspunt
+## Overzichtsgericht uitgangspunt
 
-Deze repo wordt opgebouwd met ADHD-vriendelijk werken in het achterhoofd.
+Deze repo wordt opgebouwd voor werk dat snel complex, versnipperd of onoverzichtelijk kan worden.
 
 Dat betekent:
 
@@ -31,6 +31,7 @@ Dat betekent:
 - open punten expliciet benoemen
 - beslissingen en revisies vastleggen
 - werk opdelen in korte fases
+- groepen inklapbaar maken waar dat overzicht geeft
 
 Het doel is niet om méér administratie te maken, maar om minder mentale belasting te hebben tijdens Revit MEP-werk.
 
