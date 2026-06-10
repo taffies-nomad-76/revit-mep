@@ -4,6 +4,18 @@ Deze checkliststructuur is bedoeld om later concrete jobs toe te voegen per hoof
 
 Belangrijk: dit document bevat **nog geen inhoudelijke jobs**. Het is alleen de structuur.
 
+## Werking
+
+Checkboxen staan bewust als Markdown-taakregels:
+
+```md
+- [ ] Titel of taak
+```
+
+Checkboxen worden **niet** in `<summary>` gezet, omdat GitHub die dan niet als interactieve checkbox behandelt.
+
+---
+
 ## Hoofdstukken
 
 - Luchtbehandeling
@@ -41,93 +53,103 @@ Nog aan te vullen:
 
 ---
 
+- [ ] **Luchtbehandeling — alles klaar**
+
 <details open>
-<summary><strong>Luchtbehandeling</strong> — [ ] Alles klaar</summary>
+<summary><strong>Toon/verberg Luchtbehandeling</strong></summary>
+
+- [ ] **Luchtbehandeling · A — alles klaar**
 
 <details>
 <summary><strong>A</strong></summary>
 
-### Aa
+- [ ] **Luchtbehandeling · Aa — alles klaar**
+  - [ ] Aa — VL-00 — jobs toevoegen
+  - [ ] Aa — VL-01 — jobs toevoegen
+  - [ ] Aa — VL-02 — jobs toevoegen
+  - [ ] Aa — VL-03 — jobs toevoegen
+  - [ ] Aa — VL-04 — jobs toevoegen
 
-- [ ] Aa — VL-00 — jobs toevoegen
-- [ ] Aa — VL-01 — jobs toevoegen
-- [ ] Aa — VL-02 — jobs toevoegen
-- [ ] Aa — VL-03 — jobs toevoegen
-- [ ] Aa — VL-04 — jobs toevoegen
+- [ ] **Luchtbehandeling · Ab — alles klaar**
+  - [ ] Ab — verdiepingen nog aanvullen — jobs toevoegen
 
-### Ab
+- [ ] **Luchtbehandeling · Ac — alles klaar**
+  - [ ] Ac — VL-00 — jobs toevoegen
+  - [ ] Ac — VL-01 — jobs toevoegen
+  - [ ] Ac — VL-02 — jobs toevoegen
+  - [ ] Ac — VL-03 — jobs toevoegen
+  - [ ] Ac — VL-04 — jobs toevoegen
+  - [ ] Ac — VL-05 — jobs toevoegen
+  - [ ] Ac — VL-06 — jobs toevoegen
 
-- [ ] Ab — verdiepingen nog aanvullen — jobs toevoegen
-
-### Ac
-
-- [ ] Ac — VL-00 — jobs toevoegen
-- [ ] Ac — VL-01 — jobs toevoegen
-- [ ] Ac — VL-02 — jobs toevoegen
-- [ ] Ac — VL-03 — jobs toevoegen
-- [ ] Ac — VL-04 — jobs toevoegen
-- [ ] Ac — VL-05 — jobs toevoegen
-- [ ] Ac — VL-06 — jobs toevoegen
-
-### Ad
-
-- [ ] Ad — VL-00 — jobs toevoegen
-- [ ] Ad — VL-01 — jobs toevoegen
-- [ ] Ad — VL-02 — jobs toevoegen
-- [ ] Ad — VL-03 — jobs toevoegen
-- [ ] Ad — VL-04 — jobs toevoegen
-- [ ] Ad — VL-05 — jobs toevoegen
-- [ ] Ad — VL-06 — jobs toevoegen
+- [ ] **Luchtbehandeling · Ad — alles klaar**
+  - [ ] Ad — VL-00 — jobs toevoegen
+  - [ ] Ad — VL-01 — jobs toevoegen
+  - [ ] Ad — VL-02 — jobs toevoegen
+  - [ ] Ad — VL-03 — jobs toevoegen
+  - [ ] Ad — VL-04 — jobs toevoegen
+  - [ ] Ad — VL-05 — jobs toevoegen
+  - [ ] Ad — VL-06 — jobs toevoegen
 
 </details>
+
+- [ ] **Luchtbehandeling · B — alles klaar**
 
 <details>
 <summary><strong>B</strong></summary>
 
-- [ ] Ba — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bb — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bc — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bd — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Ba — alles klaar**
+  - [ ] Ba — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Bb — alles klaar**
+  - [ ] Bb — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Bc — alles klaar**
+  - [ ] Bc — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Bd — alles klaar**
+  - [ ] Bd — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Luchtbehandeling · C — alles klaar**
 
 <details>
 <summary><strong>C</strong></summary>
 
-### Ca
+- [ ] **Luchtbehandeling · Ca — alles klaar**
+  - [ ] Ca — VL-00 — jobs toevoegen
+  - [ ] Ca — VL-01 — jobs toevoegen
+  - [ ] Ca — VL-02 — jobs toevoegen
+  - [ ] Ca — VL-03 — jobs toevoegen
+  - [ ] Ca — VL-04 — jobs toevoegen
+  - [ ] Ca — VL-05 — jobs toevoegen
+  - [ ] Ca — VL-06 — jobs toevoegen
 
-- [ ] Ca — VL-00 — jobs toevoegen
-- [ ] Ca — VL-01 — jobs toevoegen
-- [ ] Ca — VL-02 — jobs toevoegen
-- [ ] Ca — VL-03 — jobs toevoegen
-- [ ] Ca — VL-04 — jobs toevoegen
-- [ ] Ca — VL-05 — jobs toevoegen
-- [ ] Ca — VL-06 — jobs toevoegen
+- [ ] **Luchtbehandeling · Cb — alles klaar**
+  - [ ] Cb — VL-00 — jobs toevoegen
+  - [ ] Cb — VL-01 — jobs toevoegen
+  - [ ] Cb — VL-02 — jobs toevoegen
+  - [ ] Cb — VL-03 — jobs toevoegen
 
-### Cb
+- [ ] **Luchtbehandeling · Cc — alles klaar**
+  - [ ] Cc — verdiepingen nog aanvullen — jobs toevoegen
 
-- [ ] Cb — VL-00 — jobs toevoegen
-- [ ] Cb — VL-01 — jobs toevoegen
-- [ ] Cb — VL-02 — jobs toevoegen
-- [ ] Cb — VL-03 — jobs toevoegen
-
-### Cc
-
-- [ ] Cc — verdiepingen nog aanvullen — jobs toevoegen
-
-### Cd
-
-- [ ] Cd — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Cd — alles klaar**
+  - [ ] Cd — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Luchtbehandeling · D — alles klaar**
 
 <details>
 <summary><strong>D</strong></summary>
 
-- [ ] Da — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Db — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Da — alles klaar**
+  - [ ] Da — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Luchtbehandeling · Db — alles klaar**
+  - [ ] Db — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Luchtbehandeling · Kelder — alles klaar**
 
 <details>
 <summary><strong>Kelder</strong></summary>
@@ -140,93 +162,103 @@ Nog aan te vullen:
 
 ---
 
+- [ ] **Warmte en koude distributie — alles klaar**
+
 <details open>
-<summary><strong>Warmte en koude distributie</strong> — [ ] Alles klaar</summary>
+<summary><strong>Toon/verberg Warmte en koude distributie</strong></summary>
+
+- [ ] **Warmte en koude distributie · A — alles klaar**
 
 <details>
 <summary><strong>A</strong></summary>
 
-### Aa
+- [ ] **Warmte en koude distributie · Aa — alles klaar**
+  - [ ] Aa — VL-00 — jobs toevoegen
+  - [ ] Aa — VL-01 — jobs toevoegen
+  - [ ] Aa — VL-02 — jobs toevoegen
+  - [ ] Aa — VL-03 — jobs toevoegen
+  - [ ] Aa — VL-04 — jobs toevoegen
 
-- [ ] Aa — VL-00 — jobs toevoegen
-- [ ] Aa — VL-01 — jobs toevoegen
-- [ ] Aa — VL-02 — jobs toevoegen
-- [ ] Aa — VL-03 — jobs toevoegen
-- [ ] Aa — VL-04 — jobs toevoegen
+- [ ] **Warmte en koude distributie · Ab — alles klaar**
+  - [ ] Ab — verdiepingen nog aanvullen — jobs toevoegen
 
-### Ab
+- [ ] **Warmte en koude distributie · Ac — alles klaar**
+  - [ ] Ac — VL-00 — jobs toevoegen
+  - [ ] Ac — VL-01 — jobs toevoegen
+  - [ ] Ac — VL-02 — jobs toevoegen
+  - [ ] Ac — VL-03 — jobs toevoegen
+  - [ ] Ac — VL-04 — jobs toevoegen
+  - [ ] Ac — VL-05 — jobs toevoegen
+  - [ ] Ac — VL-06 — jobs toevoegen
 
-- [ ] Ab — verdiepingen nog aanvullen — jobs toevoegen
-
-### Ac
-
-- [ ] Ac — VL-00 — jobs toevoegen
-- [ ] Ac — VL-01 — jobs toevoegen
-- [ ] Ac — VL-02 — jobs toevoegen
-- [ ] Ac — VL-03 — jobs toevoegen
-- [ ] Ac — VL-04 — jobs toevoegen
-- [ ] Ac — VL-05 — jobs toevoegen
-- [ ] Ac — VL-06 — jobs toevoegen
-
-### Ad
-
-- [ ] Ad — VL-00 — jobs toevoegen
-- [ ] Ad — VL-01 — jobs toevoegen
-- [ ] Ad — VL-02 — jobs toevoegen
-- [ ] Ad — VL-03 — jobs toevoegen
-- [ ] Ad — VL-04 — jobs toevoegen
-- [ ] Ad — VL-05 — jobs toevoegen
-- [ ] Ad — VL-06 — jobs toevoegen
+- [ ] **Warmte en koude distributie · Ad — alles klaar**
+  - [ ] Ad — VL-00 — jobs toevoegen
+  - [ ] Ad — VL-01 — jobs toevoegen
+  - [ ] Ad — VL-02 — jobs toevoegen
+  - [ ] Ad — VL-03 — jobs toevoegen
+  - [ ] Ad — VL-04 — jobs toevoegen
+  - [ ] Ad — VL-05 — jobs toevoegen
+  - [ ] Ad — VL-06 — jobs toevoegen
 
 </details>
+
+- [ ] **Warmte en koude distributie · B — alles klaar**
 
 <details>
 <summary><strong>B</strong></summary>
 
-- [ ] Ba — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bb — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bc — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Bd — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Ba — alles klaar**
+  - [ ] Ba — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Bb — alles klaar**
+  - [ ] Bb — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Bc — alles klaar**
+  - [ ] Bc — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Bd — alles klaar**
+  - [ ] Bd — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Warmte en koude distributie · C — alles klaar**
 
 <details>
 <summary><strong>C</strong></summary>
 
-### Ca
+- [ ] **Warmte en koude distributie · Ca — alles klaar**
+  - [ ] Ca — VL-00 — jobs toevoegen
+  - [ ] Ca — VL-01 — jobs toevoegen
+  - [ ] Ca — VL-02 — jobs toevoegen
+  - [ ] Ca — VL-03 — jobs toevoegen
+  - [ ] Ca — VL-04 — jobs toevoegen
+  - [ ] Ca — VL-05 — jobs toevoegen
+  - [ ] Ca — VL-06 — jobs toevoegen
 
-- [ ] Ca — VL-00 — jobs toevoegen
-- [ ] Ca — VL-01 — jobs toevoegen
-- [ ] Ca — VL-02 — jobs toevoegen
-- [ ] Ca — VL-03 — jobs toevoegen
-- [ ] Ca — VL-04 — jobs toevoegen
-- [ ] Ca — VL-05 — jobs toevoegen
-- [ ] Ca — VL-06 — jobs toevoegen
+- [ ] **Warmte en koude distributie · Cb — alles klaar**
+  - [ ] Cb — VL-00 — jobs toevoegen
+  - [ ] Cb — VL-01 — jobs toevoegen
+  - [ ] Cb — VL-02 — jobs toevoegen
+  - [ ] Cb — VL-03 — jobs toevoegen
 
-### Cb
+- [ ] **Warmte en koude distributie · Cc — alles klaar**
+  - [ ] Cc — verdiepingen nog aanvullen — jobs toevoegen
 
-- [ ] Cb — VL-00 — jobs toevoegen
-- [ ] Cb — VL-01 — jobs toevoegen
-- [ ] Cb — VL-02 — jobs toevoegen
-- [ ] Cb — VL-03 — jobs toevoegen
-
-### Cc
-
-- [ ] Cc — verdiepingen nog aanvullen — jobs toevoegen
-
-### Cd
-
-- [ ] Cd — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Cd — alles klaar**
+  - [ ] Cd — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Warmte en koude distributie · D — alles klaar**
 
 <details>
 <summary><strong>D</strong></summary>
 
-- [ ] Da — verdiepingen nog aanvullen — jobs toevoegen
-- [ ] Db — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Da — alles klaar**
+  - [ ] Da — verdiepingen nog aanvullen — jobs toevoegen
+- [ ] **Warmte en koude distributie · Db — alles klaar**
+  - [ ] Db — verdiepingen nog aanvullen — jobs toevoegen
 
 </details>
+
+- [ ] **Warmte en koude distributie · Kelder — alles klaar**
 
 <details>
 <summary><strong>Kelder</strong></summary>
