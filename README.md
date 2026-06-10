@@ -41,7 +41,7 @@ Het doel is niet om méér administratie te maken, maar om minder mentale belast
 |---|---|
 | [`ROADMAP.md`](./ROADMAP.md) | Hoofdfases en visuele route |
 | [`docs/BOUWDELEN.md`](./docs/BOUWDELEN.md) | Voorlopige bouwdelen- en verdiepingenstructuur |
-| [`docs/INSTALLATIE_CODESTRUCTUUR.md`](./docs/INSTALLATIE_CODESTRUCTUUR.md) | Codes per bouwdeel, verdieping en installatiegroep |
+| [`docs/JOB_CHECKLIST_STRUCTUUR.md`](./docs/JOB_CHECKLIST_STRUCTUUR.md) | Job-checklist per hoofdstuk, bouwdeel en vloer |
 | [`docs/ILS_AB_MATRIX.md`](./docs/ILS_AB_MATRIX.md) | AB-gerichte ILS-propertymatrix voor Revit MEP |
 | [`docs/WORKFLOW_PRINCIPLES.md`](./docs/WORKFLOW_PRINCIPLES.md) | Werkprincipes en vaste workflow |
 | [GitHub issue #4](https://github.com/taffies-nomad-76/revit-mep/issues/4) | Centrale interactieve master-checklist |
@@ -52,7 +52,7 @@ De basisvolgorde voor Revit MEP-werk:
 
 1. Scope bepalen
 2. Bouwdelen en verdiepingen afbakenen
-3. Installatie-codestructuur bepalen
+3. Job-checklist per hoofdstuk/bouwdeel/vloer opbouwen
 4. ILS AB-matrix controleren
 5. Modelleren volgens opdracht
 6. Controleren
@@ -86,27 +86,20 @@ De bouwdelenstructuur is voorlopig en wordt later aangevuld. De huidige structuu
 
 Verdiepingen verschillen per bouwdeel. Onbekende verdiepingsaantallen blijven open punt.
 
-## Codestructuur
+## Job-checkliststructuur
 
-Voor installatiegerichte werkpakketten geldt voorlopig:
+De jobstructuur is opgezet met twee hoofdhoofdstukken:
 
-```text
-{Bouwdeel}-VL-{Verdieping}-{Installatiecode}
-```
+- Luchtbehandeling
+- Warmte en koude distributie
 
-Voorbeelden:
+Daaronder volgt per hoofdstuk:
 
-```text
-Aa-VL-00-5556
-Aa-VL-01-5556
-Aa-VL-00-5700
-Aa-VL-01-5700
-```
+1. bouwdeel
+2. vloer
+3. later toe te voegen jobs
 
-Huidige installatiegroepen:
-
-- `5556` — CV-installaties
-- `5700` — Luchtinstallaties
+De hoofdstukken blijven inklapbaar en krijgen een globale checkbox voor “alles klaar”.
 
 ## Ontwerpprincipes voor deze repo
 
@@ -127,7 +120,7 @@ Bij uitbreiding van deze repository gelden de volgende principes:
 Eerste focus:
 
 - bouwdelenstructuur
-- installatie-codestructuur
+- job-checkliststructuur
 - Revit Basis ILS
 - AB-gerichte propertycontrole
 - Revisie AB
