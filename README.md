@@ -41,6 +41,7 @@ Het doel is niet om méér administratie te maken, maar om minder mentale belast
 |---|---|
 | [`ROADMAP.md`](./ROADMAP.md) | Hoofdfases en visuele route |
 | [`docs/BOUWDELEN.md`](./docs/BOUWDELEN.md) | Voorlopige bouwdelen- en verdiepingenstructuur |
+| [`docs/INSTALLATIE_CODESTRUCTUUR.md`](./docs/INSTALLATIE_CODESTRUCTUUR.md) | Codes per bouwdeel, verdieping en installatiegroep |
 | [`docs/ILS_AB_MATRIX.md`](./docs/ILS_AB_MATRIX.md) | AB-gerichte ILS-propertymatrix voor Revit MEP |
 | [`docs/WORKFLOW_PRINCIPLES.md`](./docs/WORKFLOW_PRINCIPLES.md) | Werkprincipes en vaste workflow |
 | [GitHub issue #4](https://github.com/taffies-nomad-76/revit-mep/issues/4) | Centrale interactieve master-checklist |
@@ -51,15 +52,16 @@ De basisvolgorde voor Revit MEP-werk:
 
 1. Scope bepalen
 2. Bouwdelen en verdiepingen afbakenen
-3. ILS AB-matrix controleren
-4. Modelleren volgens opdracht
-5. Controleren
-6. Syncen
-7. Annoteren
-8. Revisies verwerken
-9. Plotten via DiRoots
-10. PDF controleren
-11. Output vrijgeven
+3. Installatie-codestructuur bepalen
+4. ILS AB-matrix controleren
+5. Modelleren volgens opdracht
+6. Controleren
+7. Syncen
+8. Annoteren
+9. Revisies verwerken
+10. Plotten via DiRoots
+11. PDF controleren
+12. Output vrijgeven
 
 ## ILS-focus
 
@@ -84,6 +86,28 @@ De bouwdelenstructuur is voorlopig en wordt later aangevuld. De huidige structuu
 
 Verdiepingen verschillen per bouwdeel. Onbekende verdiepingsaantallen blijven open punt.
 
+## Codestructuur
+
+Voor installatiegerichte werkpakketten geldt voorlopig:
+
+```text
+{Bouwdeel}-VL-{Verdieping}-{Installatiecode}
+```
+
+Voorbeelden:
+
+```text
+Aa-VL-00-5556
+Aa-VL-01-5556
+Aa-VL-00-5700
+Aa-VL-01-5700
+```
+
+Huidige installatiegroepen:
+
+- `5556` — CV-installaties
+- `5700` — Luchtinstallaties
+
 ## Ontwerpprincipes voor deze repo
 
 Bij uitbreiding van deze repository gelden de volgende principes:
@@ -103,6 +127,7 @@ Bij uitbreiding van deze repository gelden de volgende principes:
 Eerste focus:
 
 - bouwdelenstructuur
+- installatie-codestructuur
 - Revit Basis ILS
 - AB-gerichte propertycontrole
 - Revisie AB
